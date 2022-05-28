@@ -2,24 +2,11 @@
 # Example:
 # count_words("The cake is done. It is a big cake!") 
 # --> {"cake":2, "big":1, "is":2, "the":1, "a":1, "it":1}
+from collections import Counter
 
-def read_file_content(filename):
-    # [assignment] Add your code here 
-    f = open("./story.txt", "r")
-    print(f.read())
-    return "Hello World"
+with open('test.txt', 'r') as f:
+    counter = Counter()
+    for line in f:
+        counter.update(line.split())
 
-
-def count_words():
-    #text = read_file_content("./story.txt")
-    text = open('./story.txt', 'r').read().split
-    # [assignment] Add your code here
-    words = {}
-    for w in text:
-        if w not in words:
-            words[w] = 1
-        else:
-            words[w] += 1
-
-    return words        
-    #return {"as": 10, "would": 20}
+print (counter)
