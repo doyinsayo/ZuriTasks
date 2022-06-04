@@ -1,10 +1,13 @@
 # RPS - ROCK PAPER SCISSORS GAME
 
+# CodeSkulptor runs Python programs in your browser.
+https://py3.codeskulptor.org/#user305_WNFjIeQWMd3Qi6b_1.py
 #Welcome to the Classical Rock-Paper-Scissors game Where Rock beats Scissors and 
 #Scissors beats Paper and Paper beats Rock
 
 import random
 import simplegui
+
 
 AI_SCORE = 0
 HUMAN_SCORE = 0
@@ -95,12 +98,12 @@ def Scissors():
 def draw(canvas):
     try:
         # Draw choices
-        canvas.draw_text("You: " + HUMAN_CHOICE , [10,40], 48, "Green")
-        canvas.draw_text("AI: " + AI_CHOICE , [10,80], 48, "Red")
+        canvas.draw_text("PLAYER: " + HUMAN_CHOICE , [10,40], 48, "Green")
+        canvas.draw_text("CPU: " + AI_CHOICE , [10,80], 48, "Red")
         
         # Draw scores
-        canvas.draw_text("Human Score: " + str(HUMAN_SCORE), [10,150], 30, "Green")
-        canvas.draw_text("AI Score: " + str(AI_SCORE), [10,190], 30, "Red")
+        canvas.draw_text("Player Score: " + str(HUMAN_SCORE), [10,150], 30, "Green")
+        canvas.draw_text("CPU Score: " + str(AI_SCORE), [10,190], 30, "Red")
         
     except TypeError:
         pass
