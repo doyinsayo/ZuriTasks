@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: "Poppins", "san-serif";
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+  }
+  .navbar {
+    display: flex;
+    padding: 25px 15px;
+    justify-content: space-around;
+  }
+  .about-me {
+    padding: 25px 25px;
+    margin-top: 25px;
+  }
+  .lists {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+  }
+  .myimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .picture {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact{
+      margin-top: 16rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin: 3rem 6rem;
+      /* md:px-14 lg:px-24 w-full */
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      font-weight: 700;
+  }
+  label{
+    color: white;
+    margin-top: 1rem;
+  }
+  input {
+      width: 50%;
+      border: 0px solid #565666;
+      background: #2A2A35;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: white;
+  }
+  textarea {
+      width: 80%;
+      height: 60px;
+      border: 0px solid #565666;
+      background: #2A2A35;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 1rem;
+      height: auto;  
+      color: white;
+  }
+  button {
+      margin-top: 1rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      background: #3F3FFF;
+      border: 0px;
+      color: white;
+      font-weight: bold;
+  }
+  select, option{
+    display: block;
+    background: white;
+    margin: 0.5rem;
+    width:70px
+  }
+  
+  .register {
+    margin: 3rem 6rem;
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    font-weight: 400;
+  }
+  .login, input {
+    width: 100%;
+  }
+  p {
+    line-height: 2rem;
+    margin-top: 45px;
+  }
+  li {
+    line-height: 2rem;
+    text-align: left;
+    padding: 0px;
+  }
+  ol {
+    padding-left: 11px;
+  }
+  ul {
+    padding-left: 9px;
+  }
+  .button {
+    font-weight: bold;
+  }
