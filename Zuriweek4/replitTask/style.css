@@ -58,7 +58,7 @@ html, body {
   input {
       width: 50%;
       border: 0px solid #565666;
-      background: #2A2A35;
+      background: beige;
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 1rem;
@@ -69,7 +69,7 @@ html, body {
       width: 80%;
       height: 60px;
       border: 0px solid #565666;
-      background: #2A2A35;
+      background: beige;
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 1rem;
